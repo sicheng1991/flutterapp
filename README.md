@@ -1,8 +1,5 @@
-# flutterapp
+# flutterDemo
 
-A new Flutter application.
+Flutter application 学习.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+[官方文档](https://flutter.io/).
