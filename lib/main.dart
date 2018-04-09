@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:flutterapp/util/AttrUtil.dart';
 
 void main() => runApp(new MyApp());
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -94,8 +94,11 @@ class RandomWordsState extends State<RandomWords> {
         setState(() {
           if (alreadySaved) {
             _saved.remove(pair);
+            print(AttrUtil.LogTag + pair.asCamelCase);
           } else {
             _saved.add(pair);
+
+            print(AttrUtil.LogTag + pair.asCamelCase);
           }
         });
       },
